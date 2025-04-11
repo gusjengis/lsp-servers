@@ -1,9 +1,13 @@
 [package]
 name = "lsp-servers"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Provides a list of relevant language servers for a given directory."
 license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "lsp-servers"    
+path = "src/main.rs"
 
 [dependencies]
 walkdir = "2.5.0"
