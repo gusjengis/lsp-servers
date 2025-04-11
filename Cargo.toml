@@ -1,5 +1,5 @@
 [package]
-name = "rls"
+name = "lsp-servers"
 version = "0.1.0"
 edition = "2024"
 description = "Provides a list of relevant language servers for a given directory."
