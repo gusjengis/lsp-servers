@@ -1,7 +1,7 @@
 mod ext_to_lsp_servers;
 mod settings;
 
-use std::{collections::HashSet, env::args, path::PathBuf};
+use std::{collections::HashSet, path::PathBuf};
 
 use ext_to_lsp_servers::ext_to_lsp_servers;
 use settings::Settings;
