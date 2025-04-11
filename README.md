@@ -1,4 +1,4 @@
-# Relevant Language Servers
+# LSP Servers
 This is a simple CLI utility. 
 
 Given a directory, it returns a list of relevant language servers. Relevant meaning that they support file types that were found in the directory.
