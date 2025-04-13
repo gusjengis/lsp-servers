@@ -2,7 +2,7 @@
 // required, I only care about rust-analyzer at the moment
 // Also, try to maintain alphabetical sorting by extentsion
 
-pub fn ext_to_lsp_servers(ext: &str) -> &'static [&'static str] {
+pub(crate) fn lsp_servers_from_ext(ext: &str) -> &'static [&'static str] {
     match ext {
         "bash" | "sh" => &["bash-language-server"],
         "c" | "cpp" | "h" | "hpp" => &["clangd"],

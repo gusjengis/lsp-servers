@@ -1,9 +1,9 @@
 # LSP Servers
-This is a simple CLI utility. 
+This is a simple utility library with only one function. 
 
 Given a directory, it returns a list of relevant language servers. Relevant meaning that they support file types that were found in the directory.
 
-If given the -i flag, only installed language servers will be returned.
+With the corresponding setting enabled only installed language servers will be returned.
 
 The purpose of this is just to check which servers need to be spun up when creating an LSP client that operates on a specific directory.
 

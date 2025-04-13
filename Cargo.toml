@@ -1,13 +1,17 @@
 [package]
 name = "lsp-servers"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "Provides a list of relevant language servers for a given directory."
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/gusjengis/lsp-servers"
+readme = "README.md"
+keywords = ["lsp", "language-server", "development-tools"]
+categories = ["development-tools"]
 
-[[bin]]
-name = "lsp-servers"    
-path = "src/main.rs"
+[lib]
+name = "lsp_servers"
+path = "src/lib.rs"
 
 [dependencies]
 walkdir = "2.5.0"
