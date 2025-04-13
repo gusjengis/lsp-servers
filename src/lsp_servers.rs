@@ -9,7 +9,7 @@ use walkdir::WalkDir;
 // Build a set of relevant LSP servers
 // Check if each of those servers are installed
 //
-pub fn lsp_servers(workspace: PathBuf, settings: &Settings) -> Vec<&'static str> {
+pub fn relevant_lsp_servers(workspace: PathBuf, settings: &Settings) -> Vec<&'static str> {
     let mut res = vec![];
     // println!("Scanning {}...", workspace.to_str().unwrap()); // for debug
     let mut relevant_lsp_servers = HashSet::<&'static str>::new();
